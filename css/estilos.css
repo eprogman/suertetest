@@ -1,0 +1,456 @@
+/*  PRIMERA FILA 
+--1er-claro:#ff8123;
+--2er-claro:#FFDD33;
+--3er-claro:#33FFA8;
+--4er-claro:#C7D5D2;
+
+--1er-oscuro:#091B1B;
+--2er-oscuro:#302E04;
+--3er-oscuro:#04302F;
+--4er-oscuro:#D71111;
+
+*/
+
+* {
+	padding: 0px;
+	margin: 0px;	
+}
+
+body{	
+	background: #C7D5D2;
+	font-family: Arial;
+}
+
+.contenedor{
+
+	width: 85%;
+	max-width: 1000px;
+	margin:0 auto;
+	overflow: hidden;
+	height: auto;
+}
+
+.logo img{
+
+	height: auto;
+	width: 35%;
+	margin: 50px 0px 0px 280px ;
+	border-radius:  20px 20px 20px 20px ;
+
+
+}
+
+header{
+
+	height: auto;
+	background: #FFDD33;
+	width: 100%;
+	margin: 0px 0px 50px 0px ;
+
+
+}
+
+
+.imagen_header img{
+
+	width: 25%;
+	height: auto;
+	margin: -100px 0px 0px 650px ;
+
+
+}
+
+article{
+
+	display: block;
+	position: absolute;
+}
+
+
+.parrafo_inicial p {
+
+	font-size: 30px;
+	color:#33FFE6;
+	height: auto;
+	width: 30%;
+	margin: -140px 0px 0px 50px ;
+
+}
+
+.parrafo_inicial  p:hover{	
+
+	font-size: 40px;
+	color: #04302F;
+}
+
+.main{
+
+	background: #33FFA8;
+	width: 100%;
+}
+
+
+
+/*  PRIMERA FILA  */
+
+
+.imagen1 img{
+
+	float: left;
+	width: 25%;
+	height: auto;
+}
+
+.p1{
+	width: 10%;
+	display: block;
+	float: left;
+	}
+
+
+.imagen2 img{
+
+	width: 50%;
+	height: auto;
+	margin: 0 0 50px 25px;
+	float: left;
+}
+
+
+.p2{
+	width: 10%;
+	display: block;
+	float: left;
+	}
+
+
+/*  SEGUNDA FILA  */
+
+
+.imagen3 img {
+
+	float: left;	
+	width: 25%;
+	height: auto;
+
+}
+
+
+.p3{
+	width: 10%;
+	display: block;
+	float: left;
+	}
+
+
+
+.imagen4 img{
+
+	width: 50%;
+	height: auto;
+	margin: 0 0 50px 25px;
+	float: left;	
+}
+
+.p4{
+	width: 10%;
+	display: block;
+	float: left;
+	}
+
+
+
+
+/*  TERCERA FILA  */
+
+
+.imagen5 img{
+
+	float: left;
+	width: 25%;
+	height: auto;
+
+}
+
+.p5{
+	width: 10%;
+	display: block;
+	float: left;
+	}
+
+
+
+.imagen6 img{
+	
+	width: 50%;
+	height: auto;
+	margin: 0 0 50px 25px;
+	float: left;
+	
+}
+
+.p6{
+	width: 10%;
+	display: block;
+	float: left;
+	}
+
+
+/*  CUARTA FILA  */
+
+
+.imagen7 img{
+
+	float: left;
+	width: 25%;
+	height: auto;
+
+}
+
+.p7{
+	width: 10%;
+	display: block;
+	float: left;
+	}
+
+
+.imagen8 img{
+
+	width: 50%;
+	height: auto;
+	margin: 0 0 50px 25px;
+	float: left;
+	
+}
+
+.p8{
+	width: 10%;
+	display: block;
+	float: left;
+	}
+
+.p9{
+	width: 10%;
+	display: block;
+	clear: both;
+	}
+
+/*  ############################################################################################ */
+/*  ############################################################################################ */
+/*  ############################################################################################ */
+/*  ############################################################################################ */
+/*  ############################################################################################ */
+/*  ############################################################################################ */
+
+
+/*  EMPIEZA OTRA VEZ EL CODIGO PARA MOVILES */
+
+@media screen and (max-width: 380px) {
+
+	.contenedor{
+
+		width: 90%;
+	}
+
+	body {
+		background: #04302F;
+	}
+
+	.parrafo_inicial p{
+
+	  text-align: left;
+	  width: 70%;
+	  font-size: 15px;
+	  margin:auto;
+
+	}
+
+   .parrafo_inicial  p:hover{	
+	
+	font-size: 20px;
+	width: 70%;
+	
+    }
+
+	.logo img {
+
+		position: relative;
+		top:-5px;
+		right:0 ;
+		left:-225px ;
+		bottom:0 ;
+		margin-bottom: 30px;
+	
+	}
+
+	.imagen_header img{
+
+		display: none;
+	}
+
+/*  PRIMERA FILA  */
+
+
+.imagen1 img{
+
+	float: left;
+	width: 25%;
+	height: auto;
+    margin: 0 0 20px 0;
+}
+
+.p1{
+	width: 10%;
+	display: block;
+	float: left;
+	font-size: 10px;
+		margin: 0 0 20px 0;
+	}
+
+
+.imagen2 img{
+
+	width: 50%;
+	height: auto;
+	margin: 0 0 20px 0;
+	clear: both;
+
+}
+
+
+.p2{
+	width: 10%;
+	display: block;
+	float: left;
+	font-size: 10px;
+		margin: 0 0 20px 0;
+	}
+
+
+/*  SEGUNDA FILA  */
+
+
+.imagen3 img {
+
+	clear: both;
+	width: 25%;
+	height: auto;
+		margin: 0 0 20px 0;
+
+}
+
+
+.p3{
+	width: 10%;
+	display: block;
+	float: left;
+	font-size: 10px;
+		margin: 0 0 20px 0;
+	}
+
+
+
+.imagen4 img{
+
+	width: 50%;
+	height: auto;
+		margin: 0 0 20px 0;
+	clear: both;
+}
+
+.p4{
+	width: 10%;
+	display: block;
+	float: left;
+	font-size: 10px;
+		margin: 0 0 20px 0;
+	}
+
+
+
+
+/*  TERCERA FILA  */
+
+
+.imagen5 img{
+
+	clear: both;
+	width: 25%;
+	height: auto;
+		margin: 0 0 20px 0;
+
+}
+
+.p5{
+	width: 10%;
+	display: block;
+	float: left;
+	font-size: 10px;
+		margin: 0 0 20px 0;
+	}
+
+
+
+.imagen6 img{
+	
+	width: 50%;
+	height: auto;
+	margin: 0 0 20px 0;
+	clear: both;
+	
+}
+
+.p6{
+	width: 10%;
+	display: block;
+	float: left;
+	font-size: 10px;
+	margin: 0 0 20px 0;
+	}
+
+
+/*  CUARTA FILA  */
+
+
+.imagen7 img{
+
+	clear: both;
+	width: 25%;
+	height: auto;
+	margin: 0 0 20px 0;
+
+}
+
+.p7{
+	width: 10%;
+	display: block;
+	float: left;
+	font-size: 10px;
+	margin: 0 0 20px 0;
+	}
+
+
+.imagen8 img{
+
+	width: 50%;
+	height: auto;
+	margin: 0 0 20px 0;
+	clear: both;
+	
+}
+
+.p8{
+	width: 10%;
+	display: block;
+	float: left;
+	font-size: 10px;
+	margin: 0 0 20px 0;
+	}
+	
+.p9{
+	width: 10%;
+	display: block;
+	clear: both;
+	}
+
+}
