@@ -959,6 +959,7 @@ input[type="radio"], input[type="checkbox"] {
 }
 .nav-menu a:hover {
   color: #e86240;
+  text-decoration: none;
 }
 .nav-menu ul li {
   line-height: 26px;
