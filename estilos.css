@@ -1,0 +1,79 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: rgb(133, 146, 158, 0.3);
+}
+
+.header-suertetest {
+    margin: auto;
+    width: 50%;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+.header-suertetest button {
+
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+    background: cadetblue;
+    color: white;
+    font-size: 2em;
+    border: none;
+}
+
+.titulo-suertetest {
+    display: flex;
+    align-items: center;
+}
+
+.titulo-suertetest p {
+    margin-left: 10px;
+    font-size: 2.5em;
+}
+
+.num-suertetest {
+
+    margin-left: 150px;
+    margin-bottom: 15px;
+
+}
+
+.num-suertetest input {
+    width: 100px;
+    border: 0.2em solid black;
+    height: 50px;
+}
+
+.elegido {
+    font-size: 2.1em;
+    font-weight: bold;
+    color: blue;
+}
+
+.sorteado {
+    font-size: 2.1em;
+    font-weight: bold;
+    color: red;
+}
+
+.form-boton {
+
+    display: flex;
+    justify-content: space-between;
+}
